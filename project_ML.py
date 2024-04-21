@@ -3,6 +3,7 @@ import pickle
 from PIL import Image
 
 
+
 def main():
     st.title(":rainbow[ADULT INCOME PREDICTIONS]")
     image = Image.open('income image.jpg')
