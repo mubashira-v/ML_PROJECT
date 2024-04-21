@@ -5,7 +5,7 @@ from PIL import Image
 
 
 def main():
-    st.title(":rainbow[ADULT INCOME PREDICTIONS]")
+    st.title("ADULT INCOME PREDICTIONS")
     image = Image.open('income image.jpg')
     st.image(image, width=800)
     age = st.sidebar.slider('age', 0,100,1,step=1)
